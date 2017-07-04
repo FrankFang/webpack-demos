@@ -5,7 +5,7 @@ import './jack.less'
 function component() {
   var $div = $('<div/>')
 
-  $div.html( _.join(['Hi', 'Jirengu'], ' ') )
+  $div.html( _.join(['Hello', 'Jirengu'], ' ') )
 
   return $div
 }
